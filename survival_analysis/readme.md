@@ -3,7 +3,7 @@
 - Events - survival analysis deals with the events related to failure. Definition of failure must be clear.
 - Subject - represents the entity which is going through some phases and the failure (or the event) is attached to it.
 - Failure time or Survival time - time taken till failure is referred to as the failure time or survival time.
-- Censoring - it is caused by not observing some subjects for the full time till failure (or event). Example, we last obserbed the customer at time t1 and he churned later when we observed at time t2. So the customer churned out between t1 & t2 - in this case, it is understood that the data is censored.
+- Censoring - it is caused by not observing some subjects for the full time till failure (or event) i.e. not observing a cusstomer or ciustomer doesn't churns out of the system before the end of the observation period. Example, we last observed a customer at time t1 and he churned later when we observed at time t2. So the customer churned out between t1 & t2 - in this case we don't know the exact time of churn, it is understood that the data is censored.
 - Risk set - cohort of customers considered for churn/survival analysis.
 - Survival Function - it returns the probability of an event occurring after time t. 
     Mathematically, S(t) = P(T > t), 0 < t < infinity.
