@@ -17,7 +17,7 @@
 - Hazard Function - it is is opposite to survival & is churn rate. It can also be called failure rate.
 
 
-  ## Why can't we use Regression for Survival Analysis?
+## Why can't we use Regression for Survival Analysis?
 The problem statement of survival analysis is quite similar to regression problem. A regression model can be built considering failure time (i.e. time elapsed from present to the actual churn event) which can be marked as target variable. That can still solve the problem by giving the predicted time of the next event, but it's compounded by uncertainity of exact churn time, i.e. censoring, hence Regression may give poor result.
 Another reason is the distribution of time to event. If the failure time is normally distributed, we still could use a regression (or logistic regression model), but that is not the case. Distribution of time is either unknown or not normal at all.
 
