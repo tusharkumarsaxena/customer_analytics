@@ -1,5 +1,5 @@
 ## Terminology
-- Survival analysis is defined as a collection of statistical longitudinal data analysis techniques where time is a major factor.
+- Survival analysis is defined as a collection of statistical longitudinal data analysis technique where time is a major factor.
 - Events - survival analysis deals with the events related to failure. Definition of failure must be clear.
 - Subject - represents the entity which is going through some phases and the failure (or the event) is attached to it.
 - Failure time or Survival time - time taken till failure is referred to as the failure time or survival time.
